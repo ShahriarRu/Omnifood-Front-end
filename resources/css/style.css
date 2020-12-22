@@ -8,13 +8,15 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     background-color: white;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix {
@@ -52,7 +54,6 @@ header{
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
-    
 }
 
 .logo{
@@ -175,7 +176,7 @@ h3{
     display: block;
     color: #e67e22;
     margin-bottom: 10px;
-    margin-left: 65px;
+    margin-left: 15px;
     line-height: 120%;
     margin-right: 5px;
 }
